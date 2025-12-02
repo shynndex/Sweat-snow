@@ -1,0 +1,51 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Build output
+dist/
+build/
+.temp/
+.tmp/
+.cache/
+.cache-loader/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# React specific
+**/node_modules/
+**/build/
+*.cache
+
+# Mongo backups
+dump/
+data/db/
+
+# TypeScript
+*.tsbuildinfo
+
+# Others
+coverage/
